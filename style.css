@@ -20,4 +20,8 @@ header h2 {
 	padding-bottom: 10px;
 	color: #fff;
 }
+.container {
+	display: flex;
+	flex-direction: column; 
+}
 
