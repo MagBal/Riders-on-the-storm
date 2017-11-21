@@ -22,10 +22,12 @@ header h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
 
 .container p {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff; }
+
+/*# sourceMappingURL=style.prefixed.css.map */
