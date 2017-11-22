@@ -10,7 +10,7 @@
 	"build": "npm run build:clean && npm run build:scss && npm run build:autoprefixer && npm run test",
 	"build:clean" : "rimraf css",
 	"build:scss": "scss --update scss/style.scss:css/style.prefixed.css",
-	"build:autoprefixer": "autoprefixer-cli css/style.prefixed.css",
+  "build:autoprefixer": "autoprefixer-cli css/style.prefixed.css",
 
 	"watch":"parallelshell \"npm run watch:browser-sync\" \"npm run watch:scss\" \"npm run watch:autoprefixer\" ",
 	"watch:browser-sync" : "browser-sync start --server ./c/Kodilla/Riders-on-the-storm --files css/*.css *.html",
