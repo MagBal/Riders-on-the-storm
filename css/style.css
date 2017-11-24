@@ -18,7 +18,7 @@ header h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: orange; }
+  background: red; }
 
 .container p {
   padding-top: 10px;
