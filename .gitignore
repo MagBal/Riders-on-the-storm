@@ -57,6 +57,4 @@ typings/
 # dotenv environment variables file
 .env
 
- .sass.cache
-css
 .sass-cache
